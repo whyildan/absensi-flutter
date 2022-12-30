@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "644136297977",
+    "project_id": "absensi-whyldan",
+    "storage_bucket": "absensi-whyldan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644136297977:android:8c27e2aba09794498e0928",
+        "android_client_info": {
+          "package_name": "com.whyldanprtama.absensi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644136297977-1rdvrv3t6dv8aknulnoreq73v5n2t5dr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGdYnzydngYa1YS49kOZqCNv8itEKkp9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644136297977-1rdvrv3t6dv8aknulnoreq73v5n2t5dr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
