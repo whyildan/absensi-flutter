@@ -1,6 +1,6 @@
-# absensi
+# Absensi
 
-A new Flutter project.
+Aplikasi Absensi / Kehadiran Terintegrasi Dengan Geolocator.
 
 ## Getting Started
 
