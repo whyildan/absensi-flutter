@@ -1,5 +1,7 @@
 import 'package:get/get.dart';
 
+import 'package:absensi/app/modules/add_pegawai/bindings/add_pegawai_binding.dart';
+import 'package:absensi/app/modules/add_pegawai/views/add_pegawai_view.dart';
 import 'package:absensi/app/modules/home/bindings/home_binding.dart';
 import 'package:absensi/app/modules/home/views/home_view.dart';
 
@@ -15,6 +17,11 @@ class AppPages {
       name: _Paths.HOME,
       page: () => HomeView(),
       binding: HomeBinding(),
+    ),
+    GetPage(
+      name: _Paths.ADD_PEGAWAI,
+      page: () => AddPegawaiView(),
+      binding: AddPegawaiBinding(),
     ),
   ];
 }
