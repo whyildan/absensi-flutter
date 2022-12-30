@@ -33,9 +33,11 @@ class AddPegawaiController extends GetxController {
         }
       } on FirebaseAuthException catch (e) {
         if (e.code == 'weak-password') {
-          Get.snackbar("Peringatan", "Password yang digunakan terlalu singkat");
+          Get.snackbar(
+              "Terjadi Kesalahan", "Password yang digunakan terlalu singkat");
         } else if (e.code == 'email-already-in-use') {
-          Get.snackbar("Gagal", "Email yang digunakan sudah terdaftar");
+          Get.snackbar(
+              "Terjadi Kesalahan", "Email yang digunakan sudah terdaftar");
         }
       } catch (e) {
         Get.snackbar("Gagal", "Tidak dapat menambahkan pegawai");
