@@ -30,6 +30,8 @@ class AddPegawaiController extends GetxController {
             "uid": uid,
             "createdAt": DateTime.now().toIso8601String(),
           });
+
+          await userCredential.user!.sendEmailVerification();
         }
       } on FirebaseAuthException catch (e) {
         if (e.code == 'weak-password') {
